@@ -1,20 +1,20 @@
-# Proyecto Urban Grocers 
--El nombre del proyecto: Proyecto Urban Grocers
+## Descripción de la tarea
 
--Una descripción del proyecto.
-Este proyecto consta de la creación de un kit y con ello sus datos.
-Hacemos 9 pruebas para el campo "name", se va cambiado el contenido
-y se van obteniendo respuestas si es válido o no.
+El objetivo es verificar la funcionalidad que permite a un usuario o usuaria crear su kit personal a través de la API.
 
--La fuente de documentación utilizada(recomendamos apiDoc).
-La fuente de documentación utilizada ha sido apiDoc con un servidor, allí sale la documentación
-necestaria para las URL y las rutas.
+Pasos principales:
+- Crear un usuario/a
+- Enviar una solicitud para generar un nuevo usuario o usuaria.
+- Guardar el token de autenticación (authToken).
+- Crear un kit personal
+- Enviar una solicitud para crear el kit del usuario/a creado.
+- Incluir en el encabezado el campo Authorization con el authToken.
+- Ejecutar la lista de comprobación
+- Realizar las pruebas según los casos descritos en la checklist.
 
--Una descripción de las tecnologías y técnicas utilizadas.
-Hemos utilizado:    
-    - la web de tripleten: https://tripleten.com/trainer/qa-engineer/lesson/bd102208-8354-423c-81fd-fced0837e378/
-    - GitHub: https://github.com/ClaraMestreCas?tab=repositories
-    - PyCharm
-    - Lenguaje Pytone
+Los resultados de las pruebas pueden variar dependiendo del cuerpo de la solicitud, pero los pasos de validación son los mismos.
 
-- test
+# Herramientas utilizadas
+- Postman: para enviar solicitudes a la API y ejecutar pruebas.
+- Apidoc: para consultar la documentación de la API.
+
