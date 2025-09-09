@@ -14,7 +14,7 @@ Pasos principales:
 
 Los resultados de las pruebas pueden variar dependiendo del cuerpo de la solicitud, pero los pasos de validación son los mismos.
 
-## Herramientas utilizadas
+### Herramientas utilizadas
 - Postman: para enviar solicitudes a la API y ejecutar pruebas.
 - Apidoc: para consultar la documentación de la API.
 
